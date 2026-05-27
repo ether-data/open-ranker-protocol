@@ -6,6 +6,18 @@ This document covers how to contribute, what kinds of contributions land easiest
 
 ---
 
+## Where to give feedback
+
+This branch (`public-comment`) is a working draft published for community review. Feedback channels, in rough order of how to choose between them:
+
+- **[GitHub Discussions](https://github.com/ether-data/open-ranker-protocol/discussions)** — the primary venue for spec feedback, open-ended questions, and design debate. Use the **Spec feedback** category for substantive commentary on `SPEC.md` or the `docs/`; use **Ideas** for proposals that aren't yet a formal RFC; use **Q&A** for clarifications.
+- **[Issues](https://github.com/ether-data/open-ranker-protocol/issues)** — for concrete, tracked work items: a bug in the spec text, a missing definition, an RFC you intend to draft. If you're not sure whether it's an issue or a discussion, start in Discussions.
+- **Pull requests** — for direct contributions per §3 below.
+
+For working-group interest, governance questions, or anything you'd rather not raise publicly, see §7.
+
+---
+
 ## 1. The kinds of contributions that matter
 
 ### Wire format and schema
@@ -164,8 +176,9 @@ If your contribution is derived from external work, you must have the right to r
 
 ## 7. How to reach out
 
-- **Open an issue** on the repository — the default channel for substantive discussion
-- **Email the project maintainer** — for working-group interest, governance questions, or anything you'd rather not open as a public issue initially
+- **[GitHub Discussions](https://github.com/ether-data/open-ranker-protocol/discussions)** — the default channel for substantive spec feedback and design discussion (see "Where to give feedback" above for category guidance)
+- **[Open an issue](https://github.com/ether-data/open-ranker-protocol/issues)** — for tracked work items, concrete bugs in the spec text, or RFCs you intend to draft
+- **Email the project maintainer** — for working-group interest, governance questions, or anything you'd rather not raise publicly first
 - **Pull request** — for direct contributions
 
 If you're representing a vendor or operator and want to coordinate on multi-issue strategic input, an introductory email is welcome.
