@@ -1,0 +1,67 @@
+Open Ranker Protocol (ORP)
+Copyright 2026 Nathan Woodman and ORP Contributors
+
+This product is dual-licensed.
+
+================================================================================
+SPECIFICATION TEXT
+================================================================================
+
+The specification text — SPEC.md, README.md, CONTRIBUTING.md, the contents of
+docs/, all Latent Space Specifications (lss/), the regime taxonomy, and any
+future specification-class artifact — is licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+See LICENSE-SPEC.md for the full terms.
+
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+CODE, SCHEMAS, AND REFERENCE IMPLEMENTATIONS
+================================================================================
+
+Code, JSON Schemas, OpenRTB extension definitions, gRPC IDL, reference SDKs,
+reference encoders, reference templates, and any other software-class artifact
+in this repository — anything that is or compiles to software — is licensed
+under the Apache License, Version 2.0.
+
+See LICENSE for the full terms.
+
+License URL: https://www.apache.org/licenses/LICENSE-2.0
+
+================================================================================
+ATTRIBUTION
+================================================================================
+
+Authored and edited by Nathan Woodman.
+
+Substantial architectural and editorial input was provided by:
+
+- Ether Data Research — particularly Laurent Madeleni (four-phase architecture,
+  context-envelope framing, "open the envelope, keep the models proprietary"
+  governance posture) and Yuri Khrakovsky (standards-alignment perspective,
+  serving-API requirements).
+- Damian Naglak, Bedrock Platform (segments-vs-embeddings practitioner framing).
+- The IAB Tech Lab AAMP initiative — ARTF, Agentic Audiences (formerly the
+  LiveRamp User Context Protocol), buyer/seller agent SDKs.
+
+Conceptual debt is acknowledged to the multi-tower and sequence-learning
+recommendation architectures pioneered at YouTube (Covington et al. 2016),
+Meta (DLRM, HSTU, MTIA), TikTok (Monolith), and Pinterest (PinSage), as well
+as to the H3 hexagonal grid system developed at Uber.
+
+================================================================================
+WHEN IN DOUBT
+================================================================================
+
+If you are unsure which license applies to a specific artifact:
+
+- If it's a Markdown document about what the system means or how it should
+  work → CC BY 4.0 (LICENSE-SPEC.md)
+- If it's code, schema, IDL, or other machine-actionable artifact → Apache
+  2.0 (LICENSE)
+
+Both licenses are permissive. Both permit commercial use. Both require
+attribution. The differences relate to patent rights (Apache 2.0 grants
+explicit patent licenses; CC BY 4.0 is silent on patents) and to the
+specific formats each license was designed to govern.
